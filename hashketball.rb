@@ -162,4 +162,4 @@ def team_colors (given_team)
 end 
 
 def team_names 
-  
+  game_hash.collect do 
