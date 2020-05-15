@@ -149,3 +149,5 @@ def shoe_size (given_name)
   end 
   size
 end 
+
+def team_colors (tea)
