@@ -142,10 +142,10 @@ def shoe_size (given_name)
   size = nil 
   game_hash.each do |team, hash_info|
     hash_info[players].each do |player_details|
-      if player_details[:] == given_name 
-        points = player_details[:points]
+      if player_details[:player_name] == given_name 
+        size = player_details[:shoe]
       end 
     end 
   end 
-  points
+  size
 end 
