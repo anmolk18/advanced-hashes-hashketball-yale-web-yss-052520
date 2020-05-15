@@ -129,8 +129,5 @@ end
 def num_points_scored (player)
   points = nil 
   game_hash.each do |team, hash_info|
-    if given_player[:name] == player 
-      p given_player[:points]
-    end 
-  end 
+    
 end 
