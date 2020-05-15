@@ -129,5 +129,6 @@ end
 def num_points_scored (player)
   points = nil 
   game_hash.each do |team, hash_info|
-    hash_info[player].each do |
+    hash_info[player].each do |player_details|
+      
 end 
