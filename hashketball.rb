@@ -170,8 +170,8 @@ end
 def player_numbers (given_team)
   players_numbers_array = []
   game_hash.each do |team, hash_info|
-    if hash_info[:name] == team_name
-      team_details_hash[:players].each do |player|
+    if hash_info[:team_name] == given_team
+      hash_info[:players].each do |player|
         player.each do |key, value|
           if key == :number 
             player_numbers_list << value
