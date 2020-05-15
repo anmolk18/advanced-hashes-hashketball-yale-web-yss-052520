@@ -157,4 +157,5 @@ def team_colors (given_team)
       colors = hash_info[:colors].flatten
     end 
   end 
-  
+  colors 
+end 
