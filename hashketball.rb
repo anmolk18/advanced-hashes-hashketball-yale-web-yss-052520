@@ -163,4 +163,4 @@ end
 
 def team_names 
   game_hash.collect do |team, hash_info|
-    hash_info
+    hash_info[:team_name]
