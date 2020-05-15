@@ -174,7 +174,7 @@ def player_numbers (given_team)
       hash_info[:players].each do |player|
         player.each do |key, value|
           if key == :number 
-            player_numbers_list << value
+            players_numbers_array << value
           end
         end
       end
