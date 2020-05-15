@@ -188,7 +188,6 @@ def player_stats(given_name)
   game_hash.each do |team, hash_info|
     hash_info[:players].each do |info|
       if info[:player_name] == given_name
-        info:player_name)
         player_stats = info
       end
     end
