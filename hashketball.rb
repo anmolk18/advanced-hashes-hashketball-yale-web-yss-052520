@@ -127,6 +127,7 @@ def game_hash
 end
 
 def num_points_scored (player)
+  points = nil 
   game_hash[:home][:players].each do |given_player|
     if given_player[:name] == player 
       p given_player[:points]
