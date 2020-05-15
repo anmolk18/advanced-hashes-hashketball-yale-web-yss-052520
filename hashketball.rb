@@ -150,4 +150,6 @@ def shoe_size (given_name)
   size
 end 
 
-def team_colors (tea)
+def team_colors (given_team)
+  colors = []
+  
