@@ -158,6 +158,7 @@ def team_colors (given_team)
       colors = hash_info[:colors].flatten
     end 
   end 
-  colors 
+  colors
+  binding.pry
 end 
 binding.pry
