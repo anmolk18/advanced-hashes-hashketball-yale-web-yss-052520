@@ -187,9 +187,9 @@ def player_stats(given_name)
   player_stats = {}
   game_hash.each do |team, hash_info|
     hash_info[:players].each do |info|
-      if info[:name] == player_name
-        info.delete(:name)
-        player_stats = stats
+      if info[:player_name] == given_name
+        info.delete(:player_name)
+        player_stats = info
       end
     end
   end
