@@ -1,3 +1,4 @@
+require.pry
 # Write your code below game_hash
 def game_hash
   {
@@ -153,6 +154,7 @@ end
 def team_colors (given_team)
   colors = nil
   game_hash.each do |team, hash_info|
+    binding.pry
     if hash_info[:team_name] = given_team
       colors = hash_info[:colors].flatten
     end 
